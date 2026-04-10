@@ -57,7 +57,7 @@ const projects: Project[] = [
     ],
     technologies: ['React', 'TypeScript', 'Node.js', 'Blockchain', 'PostgreSQL'],
     image: projectImage('yetbet (1).png'),
-    backdropGradient: 'linear(to-br, #0ea5e9, #8b5cf6)',
+    backdropGradient: 'linear(to-br, #a1a1aa, #3f3f46)',
     category: 'Web',
   },
   {
@@ -73,7 +73,7 @@ const projects: Project[] = [
     ],
     technologies: ['Python', 'FastAPI', 'OpenAPI', 'n8n', 'API Integrations'],
     image: projectImage('AI automation (2).png'),
-    backdropGradient: 'linear(to-br, #0284c7, #06b6d4)',
+    backdropGradient: 'linear(to-br, #d4d4d8, #52525b)',
     category: 'AI',
   },
   {
@@ -89,7 +89,7 @@ const projects: Project[] = [
     ],
     technologies: ['React', 'JavaScript', 'Node.js', 'SEO', 'Cloud Deployment'],
     image: projectImage('New Project.png'),
-    backdropGradient: 'linear(to-br, #2563eb, #6366f1)',
+    backdropGradient: 'linear(to-br, #71717a, #27272a)',
     category: 'Web',
   },
   // {
@@ -105,7 +105,7 @@ const projects: Project[] = [
   //   ],
   //   technologies: ['Node.js', 'Python', 'REST API', 'AWS', 'Azure'],
   //   image: projectImage('Project3.png'),
-  //   backdropGradient: 'linear(to-br, #0f766e, #0891b2)',
+  //   backdropGradient: 'linear(to-br, #a1a1aa, #52525b)',
   //   category: 'Backend',
   // },
   // {
@@ -121,7 +121,7 @@ const projects: Project[] = [
   //   ],
   //   technologies: ['React', 'TypeScript', 'SEO', 'Performance', 'Analytics'],
   //   image: projectImage('New Project.png'),
-  //   backdropGradient: 'linear(to-br, #7c3aed, #ec4899)',
+  //   backdropGradient: 'linear(to-br, #e4e4e7, #71717a)',
   //   category: 'Optimization',
   // },
   // {
@@ -137,7 +137,7 @@ const projects: Project[] = [
   //   ],
   //   technologies: ['AWS', 'Azure', 'Monitoring', 'DevOps', 'Scalability'],
   //   image: projectImage('AI automation (2).png'),
-  //   backdropGradient: 'linear(to-br, #334155, #0ea5e9)',
+  //   backdropGradient: 'linear(to-br, #52525b, #18181b)',
   //   category: 'Cloud',
   // },
   {
@@ -153,7 +153,7 @@ const projects: Project[] = [
     ],
     technologies: ['WordPress', 'PHP', 'MySQL', 'JavaScript', 'SEO'],
     image: projectImage('wordpress.png'),
-    backdropGradient: 'linear(to-br, #1d4ed8, #0ea5e9)',
+    backdropGradient: 'linear(to-br, #71717a, #3f3f46)',
     category: 'CMS',
   },
   {
@@ -169,7 +169,7 @@ const projects: Project[] = [
     ],
     technologies: ['React Native', 'Flutter', 'Firebase', 'TypeScript', 'Dart'],
     image: projectImage('react native.png'),
-    backdropGradient: 'linear(to-br, #0f766e, #22c55e)',
+    backdropGradient: 'linear(to-br, #e4e4e7, #a1a1aa)',
     category: 'Mobile',
   },
   {
@@ -185,7 +185,7 @@ const projects: Project[] = [
     ],
     technologies: ['Phaser', 'TypeScript', 'Node.js', 'Socket.IO', 'Redis'],
     image: projectImage('carsh game.png'),
-    backdropGradient: 'linear(to-br, #7c3aed, #ec4899)',
+    backdropGradient: 'linear(to-br, #27272a, #71717a)',
     category: 'Game',
   },
 ]

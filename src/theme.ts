@@ -12,17 +12,18 @@ const theme = extendTheme({
     body: 'Inter, system-ui, sans-serif',
   },
   colors: {
+    /** Monochrome accent — neutral zinc-style grays (black / white / gray only). */
     brand: {
-      50: '#eef2ff',
-      100: '#e0e7ff',
-      200: '#c7d2fe',
-      300: '#a5b4fc',
-      400: '#818cf8',
-      500: '#6366f1',
-      600: '#4f46e5',
-      700: '#4338ca',
-      800: '#3730a3',
-      900: '#312e81',
+      50: '#fafafa',
+      100: '#f4f4f5',
+      200: '#e4e4e7',
+      300: '#d4d4d8',
+      400: '#a1a1aa',
+      500: '#71717a',
+      600: '#52525b',
+      700: '#3f3f46',
+      800: '#27272a',
+      900: '#18181b',
     },
   },
   radii: {
@@ -31,20 +32,20 @@ const theme = extendTheme({
     '3xl': '1.5rem',
   },
   shadows: {
-    outline: '0 0 0 3px rgba(99, 102, 241, 0.35)',
+    outline: '0 0 0 3px rgba(113, 113, 122, 0.45)',
     card: '0 4px 24px -4px rgba(15, 23, 42, 0.08)',
     cardLg: '0 20px 50px -12px rgba(15, 23, 42, 0.12)',
   },
   styles: {
     global: (props: { colorMode: string }) => ({
       body: {
-        bg: props.colorMode === 'dark' ? 'gray.900' : '#f8fafc',
+        bg: props.colorMode === 'dark' ? 'gray.900' : '#fafafa',
         color: props.colorMode === 'dark' ? 'gray.100' : 'gray.800',
         transition: 'background-color 0.2s, color 0.2s',
       },
       '::selection': {
-        bg: props.colorMode === 'dark' ? 'brand.500' : 'brand.200',
-        color: props.colorMode === 'dark' ? 'white' : 'gray.800',
+        bg: props.colorMode === 'dark' ? 'gray.600' : 'gray.300',
+        color: props.colorMode === 'dark' ? 'white' : 'gray.900',
       },
     }),
   },

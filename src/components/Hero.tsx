@@ -31,11 +31,11 @@ export const Hero = () => {
   const cardBg = useColorModeValue('white', 'gray.800')
   const borderColor = useColorModeValue('gray.200', 'gray.700')
   const heroBg = useColorModeValue(
-    'linear(to-b, white 0%, #f1f5f9 55%, #e2e8f0 100%)',
-    'linear(to-b, gray.900 0%, #0f172a 50%, gray.900 100%)'
+    'linear(to-b, white 0%, #f4f4f5 55%, #e4e4e7 100%)',
+    'linear(to-b, gray.900 0%, #18181b 50%, gray.900 100%)'
   )
   const glow = useColorModeValue('brand.200', 'brand.900')
-  const cyanGlowOpacity = useColorModeValue(0.25, 0.12)
+  const secondaryGlowOpacity = useColorModeValue(0.25, 0.12)
   const headingColor = useColorModeValue('gray.900', 'white')
   const iconColor = useColorModeValue('gray.700', 'gray.300')
   const iconHoverBg = useColorModeValue('gray.100', 'gray.700')
@@ -59,7 +59,7 @@ export const Hero = () => {
     >
       <AnimatedTechBackground />
       <Box position="absolute" top="-20%" right="-10%" w="480px" h="480px" borderRadius="full" bg={glow} opacity={0.22} filter="blur(100px)" pointerEvents="none" zIndex={0} />
-      <Box position="absolute" bottom="-15%" left="-5%" w="380px" h="380px" borderRadius="full" bg="cyan.200" opacity={cyanGlowOpacity} filter="blur(90px)" pointerEvents="none" zIndex={0} />
+      <Box position="absolute" bottom="-15%" left="-5%" w="380px" h="380px" borderRadius="full" bg="gray.200" opacity={secondaryGlowOpacity} filter="blur(90px)" pointerEvents="none" zIndex={0} _dark={{ bg: 'gray.700' }} />
 
       <Container maxW="1280px" px={{ base: 4, md: 8 }} position="relative" zIndex={1}>
         <VStack spacing={6} align="center" textAlign="center" maxW="900px" mx="auto">

@@ -39,7 +39,7 @@ const floatingIcons: FloatingIcon[] = [
 export const AnimatedTechBackground = () => {
   const iconColor = useColorModeValue('brand.400', 'brand.300')
   const blurColorA = useColorModeValue('brand.100', 'brand.700')
-  const blurColorB = useColorModeValue('purple.100', 'purple.700')
+  const blurColorB = useColorModeValue('gray.200', 'gray.700')
 
   return (
     <Box position="absolute" inset={0} pointerEvents="none" overflow="hidden" aria-hidden="true">

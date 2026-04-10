@@ -39,7 +39,11 @@ export const AIAutomationSkills = () => {
   const cardBg = useColorModeValue('gray.50', 'gray.800')
   const borderColor = useColorModeValue('gray.200', 'gray.700')
   const textColor = useColorModeValue('gray.600', 'gray.300')
-  const orbitColor = useColorModeValue('brand.500', 'brand.300')
+  const orbitColor = useColorModeValue('brand.600', 'brand.400')
+  const headingGradient = useColorModeValue(
+    'linear(to-r, gray.800, gray.500)',
+    'linear(to-r, gray.100, gray.400)'
+  )
 
   return (
     <Box as="section" id="ai-automation" py={24} bg={bg} position="relative" overflow="hidden">
@@ -50,7 +54,7 @@ export const AIAutomationSkills = () => {
         w="360px"
         h="360px"
         borderRadius="full"
-        bg={useColorModeValue('cyan.100', 'cyan.900')}
+        bg={useColorModeValue('gray.100', 'gray.800')}
         filter="blur(80px)"
         opacity={0.25}
         animate={{ x: [0, 30, -15, 0], y: [0, -20, 15, 0] }}
@@ -63,7 +67,7 @@ export const AIAutomationSkills = () => {
         w="400px"
         h="400px"
         borderRadius="full"
-        bg={useColorModeValue('purple.100', 'purple.900')}
+        bg={useColorModeValue('gray.200', 'gray.700')}
         filter="blur(90px)"
         opacity={0.25}
         animate={{ x: [0, -25, 20, 0], y: [0, 15, -15, 0] }}
@@ -74,7 +78,7 @@ export const AIAutomationSkills = () => {
         <VStack spacing={12}>
           <VStack spacing={4} textAlign="center">
             <Badge colorScheme="brand" px={3} py={1} borderRadius="full">AI Automation</Badge>
-            <Heading as="h2" size="xl" bgGradient="linear(to-r, brand.500, cyan.400)" bgClip="text">
+            <Heading as="h2" size="xl" bgGradient={headingGradient} bgClip="text">
               AI Automation Technical Skills
             </Heading>
             <Text maxW="780px" color={textColor}>

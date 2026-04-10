@@ -30,7 +30,7 @@ const specialized = [
 
 export const Skills = () => {
   const { t } = useTranslation()
-  const bg = useColorModeValue('#f8fafc', 'gray.900')
+  const bg = useColorModeValue('#fafafa', 'gray.900')
   const cardBg = useColorModeValue('white', 'gray.800')
   const borderColor = useColorModeValue('gray.200', 'gray.700')
   const muted = useColorModeValue('gray.600', 'gray.400')
@@ -46,7 +46,7 @@ export const Skills = () => {
             fontSize={{ base: '2xl', md: '3xl' }}
             fontWeight="800"
             letterSpacing="-0.02em"
-            bgGradient="linear(to-r, brand.600, purple.500)"
+            bgGradient="linear(to-r, brand.700, brand.400)"
             bgClip="text"
           >
             Technical Expertise
@@ -126,7 +126,7 @@ export const Skills = () => {
                     value={row.percent}
                     size="sm"
                     rounded="full"
-                    colorScheme="purple"
+                    colorScheme="brand"
                     bg={trackBg}
                   />
                 </Box>
