@@ -10,13 +10,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Chakra 
 - **Smooth Animations**: Framer Motion animations for engaging user experience
 - **Dark/Light Mode**: Automatic theme switching based on system preferences
 
-### 🌍 Internationalization (i18n)
-- **Multi-Language Support**: English, Japanese (日本語), and Chinese (中文)
-- **Language Detection**: Automatic language detection based on browser settings
-- **Language Switcher**: Easy language switching with flag icons
-- **Localized Content**: All text content is properly translated
-- **Persistent Language**: Language preference saved in localStorage
-
 ### 🚀 Technical Features
 - **React 18**: Latest React features and hooks
 - **TypeScript**: Full type safety and better development experience
@@ -25,14 +18,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Chakra 
 - **Framer Motion**: Smooth animations and transitions
 - **React Hook Form**: Form handling with validation
 - **React i18next**: Professional internationalization solution
-
-## 🗣️ Supported Languages
-
-| Language | Code | Native Name | Flag |
-|----------|------|-------------|------|
-| English | `en` | English | 🇺🇸 |
-| Japanese | `ja` | 日本語 | 🇯🇵 |
-| Chinese | `zh` | 中文 | 🇨🇳 |
 
 ## 📁 Project Structure
 
@@ -219,9 +204,9 @@ This project is licensed under the MIT License.
 ## 🤝 Support
 
 For questions or support, please open an issue on GitHub or contact:
-- **Email**: smartdev55ds@gmail.com
+- **Email**: apextechnicalconsulting@gmail.com
 - **Telegram**: [@crypto_bester](https://t.me/crypto_bester)
-- **Skype**: live:.cid.6352489640bed289
+
 
 ## 🙏 Acknowledgments
 
