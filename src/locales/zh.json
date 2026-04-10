@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "games": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Gabriel Rios",
+    "subtitle": "Senior Full-Stack and AI Developer with 16+ years of experience building scalable web, mobile, and intelligent systems.",
+    "viewWork": "View Projects",
+    "social": {
+      "github": "GitHub",
+      "telegram": "Email",
+      "skype": "Phone"
+    }
+  },
+  "about": {
+    "title": "Professional Summary",
+    "description": "Expert in Python, JavaScript, React, Next.js, and FastAPI with a track record of shipping high-performance applications, AI-powered automation, and cloud-ready API platforms.",
+    "experience": "Years of Experience",
+    "projects": "Key Projects",
+    "clients": "Leadership Roles",
+    "features": {
+      "fullstack": {
+        "title": "Full-Stack Engineering",
+        "description": "Design and delivery of robust frontend and backend systems with modern architecture and production-grade reliability."
+      },
+      "uiux": {
+        "title": "AI & Automation",
+        "description": "Development of AI agent systems, workflow automation, and API-integrated business tools using Python and FastAPI."
+      },
+      "problemsolving": {
+        "title": "Cloud & Performance",
+        "description": "Hands-on optimization of distributed applications across AWS and Azure to improve speed, stability, and maintainability."
+      }
+    }
+  },
+  "skills": {
+    "title": "Core Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "tools": "AI, Cloud & Tools"
+  },
+  "projects": {
+    "title": "Key Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Details",
+    "filterAll": "All",
+    "items": {
+      "yetBet": {
+        "title": "YetBet - Blockchain Prediction Platform",
+        "description": "Full-stack blockchain prediction platform with secure and transparent transaction logic.",
+        "longDescription": "Designed and developed a complete blockchain-based prediction platform with scalable backend services and interactive frontend experiences. The product focused on reliable transaction handling and transparent blockchain logic.",
+        "features": [
+          "Scalable full-stack architecture",
+          "Blockchain-enabled transaction logic",
+          "Interactive and responsive user flows",
+          "Production-focused performance tuning"
+        ]
+      },
+      "aiAgentSystems": {
+        "title": "AI Agent Systems",
+        "description": "AI-powered automation systems built with Python, FastAPI, and API orchestration.",
+        "longDescription": "Built intelligent automation workflows that integrate third-party APIs and decision-making logic to streamline business processes and data handling.",
+        "features": [
+          "Python and FastAPI service architecture",
+          "API integrations and automation pipelines",
+          "Intelligent workflow orchestration",
+          "Scalable deployment-ready design"
+        ]
+      },
+      "enterpriseModernization": {
+        "title": "Enterprise Platform Modernization",
+        "description": "Modernized legacy web systems into responsive, high-performance platforms with improved SEO and usability.",
+        "longDescription": "Led upgrades for enterprise and client-facing platforms by implementing modern React-based frontends, backend service improvements, and cross-browser resilient deployments.",
+        "features": [
+          "Responsive frontend modernization",
+          "Backend and database integration upgrades",
+          "Performance and SEO optimization",
+          "Stability improvements across environments"
+        ]
+      }
+    }
+  },
+  "games": {
+    "title": "Professional Experience",
+    "description": "Roles and impact across software engineering and technology leadership.",
+    "playButton": "View Role",
+    "items": {
+      "apex": {
+        "title": "Senior Full-Stack Developer - Apex Technical Consulting (2023 - Present)",
+        "description": "Leads scalable application development, API architecture, AI automation systems, and cloud performance optimization."
+      },
+      "bluepeak": {
+        "title": "Web Developer - BluePeak Digital Solutions (2017 - 2022)",
+        "description": "Delivered responsive web products, dynamic React interfaces, backend integrations, and measurable SEO/performance gains."
+      },
+      "bell": {
+        "title": "Director of IT - Bell Commercial Management (2007 - 2015)",
+        "description": "Directed IT strategy, infrastructure, security policies, disaster recovery, and vendor/team execution."
+      }
+    }
+  },
+  "reviews": {
+    "title": "Additional Strengths",
+    "description": "Problem solving, communication, and clean scalable delivery."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Available for senior full-stack and AI development opportunities.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "contactInfo": "Contact Information",
+    "location": "Location",
+    "phone": "Phone",
+    "emailLabel": "Email",
+    "socialMedia": "Or connect directly:",
+    "formValidation": {
+      "nameRequired": "Name is required",
+      "nameMinLength": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "messageRequired": "Message is required",
+      "messageMinLength": "Message must be at least 10 characters"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Gabriel Rios. All rights reserved.",
+    "madeWith": "Built with React and Chakra UI",
+    "quickLinks": "Quick Links",
+    "connect": "Connect"
+  },
+  "language": {
+    "en": "English",
+    "ja": "Japanese",
+    "zh": "Chinese"
+  }
+}
